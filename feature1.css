@@ -1,0 +1,80 @@
+  body{
+    background-color:rgb(57, 92, 92);
+    color:white;
+}
+.html h2{
+    color:rgb(27, 213, 226);
+   font-size: 90px;
+   margin-left:40%;
+   margin-top: 20px;
+   text-shadow: -2px 5px 2px orangered;
+}
+.html p{
+    font-size: 20px;
+    margin-left: 3%;
+    margin-top: -30px;
+}
+.html span{
+    color:orangered;
+    font-size: 23px;
+    margin-left: 3%;
+}
+#html5{
+    margin-left: 60%;
+    margin-top: -50%;
+    margin-bottom: 350px;
+}
+.html ul li{
+    margin-left: 3%;
+    font-size: 20px;
+}
+.hyper a{
+    text-decoration:none;
+    color:white;
+    background:mediumblue;
+    margin:10px 10px;
+    padding:10px 10px;
+    border-radius: 20px;
+    display:inline-block;
+    margin-left: 4%;
+    font-size:20px;
+    font-style:normal;
+    transition: .4s ease;
+}
+.hyper :hover{
+    background:red;
+}
+@media only screen and (max-width:480px){
+    .html h2{
+   font-size: 30px;
+   margin-left:40%;
+   margin-top: 20px;
+
+}
+.html p{
+    font-size: 10px;
+    margin-left: 3%;
+    margin-top: -10px;
+}
+.html span{
+    font-size: 13px;
+   
+}
+#html5{
+   height:60px;
+   width:60px;
+    margin-top: -360%;
+    margin-bottom: 200px;
+}
+.html ul li{
+    font-size: 10px;
+}
+.hyper a{
+   margin-top: -10px;
+    margin-left: 4%;
+    font-size:10px;
+   
+   
+}
+
+}

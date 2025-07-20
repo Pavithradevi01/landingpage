@@ -1,0 +1,87 @@
+ body{
+    background-color:rgb(57, 92, 92);
+    color:white;
+}
+.js h2{
+    color:rgb(27, 213, 226);
+   font-size: 70px;
+   margin-left:35%;
+   margin-top: 20px;
+   text-shadow: -2px 5px 2px orangered;
+}
+.js p{
+    font-size: 20px;
+    margin-left: 3%;
+    margin-top: -2px;
+    margin-right: 3%;
+}
+.js span{
+    color:orangered;
+    font-size: 23px;
+    margin-left: 3%;
+}
+.js b{
+    color:black;
+}
+#script{
+    margin-left: 60%;
+    margin-top: -57%;
+    margin-bottom: 550px;
+}
+.js ul li{
+    margin-left: 3%;
+    font-size: 20px;
+    margin-right: 3%;
+}
+.hyper a{
+    text-decoration:none;
+    color:white;
+    background:mediumblue;
+    margin:10px 10px;
+    padding:10px 10px;
+    border-radius: 20px;
+    display:inline-block;
+    margin-left: 4%;
+    font-size:20px;
+    font-style:normal;
+    transition: .4s ease;
+    margin-top: -4px;
+    
+}
+.hyper :hover{
+    background:red;
+}
+@media only screen and (max-width:480px){
+    .js h2{
+    margin-left:25%;
+   font-size: 30px;
+   
+}
+.js p{
+    font-size: 10px;
+    
+    margin-top: -2px;
+}
+.js span{
+    
+    font-size: 13px;
+    
+}
+
+#script{
+    margin-top: -150%;
+    height:80px;
+    width:60px;
+}
+.js ul li{
+    
+    font-size: 10px;
+}
+.hyper a{
+    font-size:10px;
+    
+    margin-top: -3%;
+    
+}
+
+}

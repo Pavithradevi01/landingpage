@@ -1,0 +1,161 @@
+ 
+body{
+    background-color:rgb(57, 92, 92);
+    color:white;
+transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+input{
+    position: relative;
+    height:40px;
+    width:400px;
+    bottom:5px;
+    left:500px;
+    display: block;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+h1{
+     color:rgb(27, 213, 226);
+   font-size: 90px;
+   margin-left:40%;
+   margin-top: 20px;
+   text-shadow: -2px 5px 2px orangered;
+}
+button{
+    height: 45px;
+    width:110px;
+    text-align: center;
+    left:800px;
+    position: relative;
+    bottom:8px;
+    border: 1px solid white;
+    background-color:#252934;
+    color: white;
+    
+    
+}
+
+.content{
+background-color: rgb(54,116,116);
+height:140px;
+width:1399px;
+top:50px;
+position: relative;
+margin-left:-2%;
+margin-bottom: -5%; 
+
+}
+
+ 
+    
+.svg1{
+    position: relative;
+    left:580px;
+    margin-bottom:100%;
+}
+.svg2{
+    position: relative;
+    left:600px;
+    margin-bottom:180px;
+}
+.error-message1{
+position: relative;
+bottom:35px;
+left:950px;
+font-size:25px;
+
+ 
+}
+.error-message2{
+  
+  position: relative;
+  bottom:32px;
+  left:950px;
+ font-size:25px;
+
+}
+
+#message{
+  
+position: relative;
+  height:120px;
+  width:400px;
+  bottom:5px;
+  left:500px;
+  display: block;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+@media only screen and (max-width:480px){
+  h1{
+     margin-left:30%;
+    font-size:50px;
+  
+  }
+  input{
+    left:10px;
+    width:350px;
+  }
+  #message{
+    left:10px;
+    width:350px;
+  }
+  .content{
+    width:400px ;
+
+  }
+  .svg1{
+    
+    left:130px;
+  }
+  .svg2{
+  
+    left:150px ;
+  }
+  button{
+    left:250px;
+  }
+    .error-message1{
+    position: relative;
+    left:10px;
+    bottom:5px;
+        font-size:15px;
+   }
+   .error-message2{
+    position: relative;
+    left:10px;
+    bottom:5px;
+       font-size:15px;
+   }
+   
+  }
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+

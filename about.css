@@ -1,0 +1,87 @@
+ body{
+    background-color:rgb(57, 92, 92);
+    color:black;
+}
+
+#dev{
+    margin-left: 4%;
+   margin-top:250px;
+   float:left;
+}
+.front {
+   font-style: oblique;
+   font-weight: bold;
+    margin-right: 35%;
+   font-size: 42px;
+   padding: 35px;
+   margin-top: -45px;
+   color:rgb(185, 106, 106);
+}
+.para {
+    font-style:normal;
+   color:white;
+   margin-left: 45%;
+   font-size: 20px;
+   padding: 35px;
+   margin-top: -9%;
+}
+.para h3{
+    color:orangered;
+}
+.para span{
+    color:black;
+    font-weight: bold;
+}
+.home a{
+    text-decoration:none;
+    color:white;
+    background:mediumblue;
+    margin:10px 10px;
+    padding:10px 10px;
+    border-radius: 20px;
+    display:inline-block;
+    margin-left: 47%;
+    font-size:20px;
+    font-style:normal;
+    transition: .4s ease;
+}
+.home :hover{
+    background:red;
+}
+
+@media only screen and (max-width:480px){
+    #dev{
+    margin-left: 4%;
+   margin-top:190px;
+   width:150px;
+   height:100px;
+   
+}
+.front {
+    margin-right: 15%;
+   font-size: 22px;
+   padding: 28px;
+   
+}
+.para {
+   margin-left: 45%;
+   font-size: 10px;
+   padding: 35px;
+   margin-top: -25%;
+}
+.para li{
+    font-size: 10px;
+}
+.para h3{
+    font-size: 12px ;
+}
+.para span{
+    font-size: 12px;
+}
+.home a{
+    margin-left: 53%;
+    font-size:10px;
+    margin-top: -10px;
+
+}
+}
